@@ -35,7 +35,7 @@ end
 
 
 #Reduce_like methods
-def reduce_to_total (array, element)
+def reduce_to_total (array, starting_value = 0)
   counter = 0
   new_value = element + 0
   while counter < array.length
