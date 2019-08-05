@@ -58,3 +58,12 @@ end
 true
 end
 
+def reduce_to_any_true (array)
+  counter = 0
+  while counter < array.length
+  if array[counter] == truth
+    return truth
+  end
+  counter += 1
+  false
+end
