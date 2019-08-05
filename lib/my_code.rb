@@ -47,7 +47,7 @@ new_value
 end
 
 def reduce_to_all_true (array)
-  binding.pry
+  #binding.pry
   counter = 0
   while counter < array.length
   if array[counter] == false
