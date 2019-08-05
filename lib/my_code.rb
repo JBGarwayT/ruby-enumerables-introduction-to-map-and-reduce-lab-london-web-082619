@@ -49,7 +49,7 @@ def reduce_to_all_true (array)
   counter = 0
   while counter < array.length
   if array[counter] == false
-     return !array
+     return false
   else
     return !!array
   end
