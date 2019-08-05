@@ -53,7 +53,7 @@ def reduce_to_all_true (array)
   else
     return !!array
   end
-  counter = counter + 1
+  counter += 1
 end   
 end
 
