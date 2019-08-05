@@ -1,3 +1,4 @@
+require 'pry'
 # Map_like methods
 def map_to_negativize (array)
   counter = 0
