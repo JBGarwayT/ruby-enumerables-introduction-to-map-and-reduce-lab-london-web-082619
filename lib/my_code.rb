@@ -48,11 +48,11 @@ end
 def reduce_to_all_true (array)
   counter = 0
   while counter < array.length
-  counter = counter + 1
+  
   if array = false
      return !array
   else
-    return !!array
+    return !!arraycounter = counter + 1
 end
 end   
 end
